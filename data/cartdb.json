@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "productImg": "https://i.ibb.co/vPxtCnJ/img1.jpg",
+      "productName": "Black Joggers",
+      "productPrice": 4500,
+      "quantity": 1,
+      "size": "L",
+      "parentId": 1,
+      "id": 1
+    },
+    {
+      "productImg": "https://i.ibb.co/vPxtCnJ/img1.jpg",
+      "productName": "Black Joggers",
+      "productPrice": 4500,
+      "quantity": 1,
+      "size": "L",
+      "parentId": 1,
+      "id": 2
+    },
+    {
+      "productImg": "https://i.ibb.co/ZzThSL1/img2.jpg",
+      "productName": "White Shirts",
+      "productPrice": 2500,
+      "quantity": 1,
+      "size": "L",
+      "parentId": 2,
+      "id": 3
+    },
+    {
+      "productImg": "https://i.ibb.co/ZzThSL1/img2.jpg",
+      "productName": "White Shirts",
+      "productPrice": 2500,
+      "quantity": 1,
+      "size": "L",
+      "parentId": 2,
+      "id": 4
+    }
+  ]
+}

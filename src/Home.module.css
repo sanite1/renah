@@ -1,0 +1,165 @@
+
+hr {
+    margin: 0;
+}
+
+.homeWrapper {
+    padding-top: 70px;
+    height: 100vh;
+    background: url("./images/intro1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+.introMessage {
+    width: 45%;
+    text-align: center;
+    margin-top: 25vh;
+}
+.introMessage h1 {
+    
+    font-size: 45px;
+    font: normal normal normal 45px/73px Segoe UI;
+    letter-spacing: 0.09px;
+    color: #FFFFFFF9;
+    text-shadow: 0px 3px 6px #00000029;
+    margin-bottom: 50px;
+}
+.shopBtn {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #FFFFFFF9;
+    color: black;
+    border-radius: 40px;
+    text-decoration: none;
+    font: normal normal bold 34px/41px Tahoma;
+    letter-spacing: 0px;
+    color: #000000FA;
+    
+} 
+.navIcons {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+.icon {
+    height: 20px;
+    width: 20px;
+    /* background-color: #FFFFFFF9; */
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 100%;
+    border: 2px solid #FFFFFFF9;
+}
+
+/* Top Selling */
+.topSellingWrapper {
+    background-color: #E2C0C0;
+    padding-bottom: 30px;
+    border-top: 1px solid gray;
+}
+.txtPart {
+    width: 80%;
+    margin: auto;
+    padding: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.header {
+    display: inline-block;
+    text-align: left;
+    font: normal normal normal 42px/73px Segoe UI;
+    letter-spacing: 0.08px;
+    color: #000000F9;
+    opacity: 1;
+    margin-top: 40px;
+
+}
+.seeAll {
+    display: inline-block;
+    text-align: left;
+    font: normal normal bold 28px/37px Segoe UI;
+    letter-spacing: 0px;
+    color: #E01D1D;
+    opacity: 1;
+    text-decoration: none;
+    
+}
+.cards {
+    width: 80%;
+    margin: auto;
+    /* overflow: scroll; */
+    margin-bottom: 30px;
+}
+
+/* Enhance your style section */
+
+.styles {
+    background-color: #E5E5E5F9;
+    padding-bottom: 50px;
+}
+.styles h3 {
+    padding-top: 30px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    font: normal normal normal 42px/73px Segoe UI;
+}
+.stylesContainer {
+    /* background-color: ; */
+    width: 80%;
+    margin: auto;
+    /* display: grid;
+    grid-template-columns: 60% 40%;
+    column-gap: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* height: 70vh; */
+}
+.col11 {
+    padding: 20px;
+}
+.col12 {
+    padding: 20px;
+}
+.stylesContainer img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 1px 3px 5px gray;
+}
+.col1 img {
+    width: 100%;
+    height: 35vh;
+}
+.col2 img {
+    height: 75vh;
+}
+.colIMG img{
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: 1px 3px 5px gray;
+}
+.exploreLink {
+    color: #E01D1D;
+    text-decoration: none;
+    font-size: 19px;
+    float: right;
+}
+
+
+.bsCol1 {
+    background-color: red;
+    height: 100px;
+}
+.bsCol2 {
+    background-color: green;
+    height: 100px;
+}
+.bsCol3 {
+    background-color: blue;
+    height: 100px;
+}
