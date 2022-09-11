@@ -1,8 +1,11 @@
 
-
-.rowWrapper {
+.previewWrapper{
+    margin: auto;
     width: 70%;
-    margin: auto 15%;
+}
+.rowWrapper {
+    /* width: 70%;
+    margin: auto; */
 }
 .wrapper {
     padding-top: 15vh;
@@ -196,4 +199,30 @@
     opacity: 1;
     text-decoration: none;
     
+}
+
+
+/* Tablet Mode */
+@media screen and (max-width: 769px) {
+    .rowWrapper {
+        width: 100%;
+        margin: auto;
+    }
+    .imgOptions {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-left: 1px solid #5E5E5EF9;
+    }
+    .otherImgs {
+        max-width: 80px;
+        /* height: 80px; */
+        margin-bottom: 20px;
+    }
+}
+
+
+/* Mobile Mode */
+@media screen and (max-width: 480px) {
+
 }

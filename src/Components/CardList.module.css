@@ -1,17 +1,20 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 .cards {
     box-sizing: border-box;
     padding: 20px;
     margin: 0 10px;
-    border: 2px solid grey;
     border-radius: 10px;
     display: flex;
     overflow-y: hidden;
     overflow-x: auto;
-    width: 100%;
+    /* width: 100%; */
     margin-bottom: 10px;
     position: relative;
     box-shadow: 2px 1px 6px 2px rgba(32, 33, 36, 0.28);
-    border-color: rgba(223, 225, 229, 0);
     justify-content: space-between;
 }
 
@@ -47,6 +50,9 @@
     display: flex;
     justify-content: center;
 }
+.pName {
+    height: 50px;
+}
 .card > p:nth-child(3) {
     color: #E01D1D;
     font-weight: 800;
@@ -79,4 +85,44 @@
 .deleter:hover {
     color: red;
     cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Tablet Mode */
+@media screen and (max-width: 769px) {
+    .cards {
+        overflow-x: auto;
+    }
+    .card {
+        min-width: 35%;
+        padding: 20px;
+    }
+    .card > p {
+        font-size: 20px;
+        display: flex;
+        justify-content: start;
+    }
+}
+
+
+/* Mobile Mode */
+@media screen and (max-width: 480px) {
+    .cards {
+        box-shadow: none;
+    }
+    .card {
+        min-width: 50%;
+        padding: 10px;
+    }
+    .card > p {
+        text-align: left;
+        font-size: 13px;
+        display: flex;
+        justify-content: start;
+    }
 }

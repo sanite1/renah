@@ -3,22 +3,18 @@ import { Link } from "react-router-dom";
 import classes from "./Home.module.css";
 import CardList from "./CardList";
 import { Container, Row, Col } from 'react-bootstrap';
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Home = () => {
-    // const [ currentPreview, setCurrentPreview] = useState(0);
-    
     
     return ( 
         <div className="">
+            <Navbar />
             <div className={classes.homeWrapper}>
                 <div className={classes.introMessage}>
                     <h1>Discover new collections with RENAH</h1>
                     <Link className={classes.shopBtn} to="\">Shop now</Link>
-                </div>
-                <div className={classes.navIcons}>
-                    <div className={classes.icon}></div>
-                    <div className={classes.icon}></div>
-                    <div className={classes.icon}></div>
                 </div>
             </div>
 
@@ -70,20 +66,6 @@ const Home = () => {
                     <Link to="/" className={classes.exploreLink} >+ Explore our collections</Link>
                 </Container>
 
-                {/* <div className={classes.stylesContainer}>
-                    <div className={classes.col1}>
-                        <div className={classes.col11}>
-                            <img src="https://i.ibb.co/THbwV57/img2.jpg" alt="" />
-                        </div>
-                        
-                        <div className={classes.col12}>
-                            <img src="https://i.ibb.co/1m1HpkX/img.jpg" alt="" />
-                        </div>
-                    </div>
-                    <div className={classes.col2}>
-                        <img src="https://i.ibb.co/YBB64qT/maaarci-89-2790239930451858061-37855207697-0-1440x1800.jpg" alt="" />
-                    </div>
-                </div> */}
             </section>
 
             {/* Trending Section */}
@@ -127,6 +109,7 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <Footer />
         </div>
     );
 }

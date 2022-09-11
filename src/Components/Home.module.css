@@ -14,13 +14,12 @@ hr {
     z-index: -1;
 }
 .introMessage {
+    position: absolute;
     width: 45%;
     text-align: center;
-    margin-top: 25vh;
+    top: 30vh;
 }
 .introMessage h1 {
-    
-    font-size: 45px;
     font: normal normal normal 45px/73px Segoe UI;
     letter-spacing: 0.09px;
     color: #FFFFFFF9;
@@ -151,15 +150,63 @@ hr {
 }
 
 
-.bsCol1 {
-    background-color: red;
-    height: 100px;
+/* Tablet Mode */
+@media screen and (max-width: 769px) {
+    .introMessage {
+        margin: auto 20%;
+        bottom: 10vh;
+        width: 60%;
+        top: auto;
+    }
+    .introMessage h1 {
+        font: normal normal normal 30px/40px Segoe UI;
+        
+        margin-bottom: 30px;
+    }
+    .shopBtn {
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 30px;
+    } 
+    .cards {
+        width: 95%;
+    }
+    .txtPart {
+        width: 85%;
+    }
+    .header {
+        font: normal normal normal 36px/50px Segoe UI;
+        opacity: 1;
+        margin-top: 30px;
+    
+    }
+    .seeAll {
+        font: normal normal bold 24px/37px Segoe UI;        
+    }
 }
-.bsCol2 {
-    background-color: green;
-    height: 100px;
-}
-.bsCol3 {
-    background-color: blue;
-    height: 100px;
+
+
+/* Mobile Mode */
+@media screen and (max-width: 480px) {
+    .shopBtn {
+        margin-top: 30px;
+        padding: 10px;
+        font-size: 20px;
+    } 
+    .cards {
+        width: 100%;
+        margin-left: 0;
+    }
+    .txtPart {
+        width: 85%;
+    }
+    .header {
+        font: normal normal normal 25px/30px Segoe UI;
+        opacity: 1;
+        margin-top: 30px;
+    
+    }
+    .seeAll {
+        font: normal normal bold 20px/23px Segoe UI;        
+    }
 }

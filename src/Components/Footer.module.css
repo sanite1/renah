@@ -41,12 +41,14 @@
     border: 0;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    width: 70%;
+    width: 60%;
     font-size: 14px;
 }
 .newsSec button {
     font-size: 14px;
-    width: 30%;
+    /* display: flex;
+    white-space: nowrap; */
+    width: fit-content;
     padding: 7px;
     outline: none;
     border: 0;

@@ -8,11 +8,12 @@
         "rating": 5,
         "sellerName": "Sanni Collins",
         "profileImg": "https://imgur.com/PTgQlim.png",
-        "category": "",
+        "category": "Joggers",
         "Overview": "",
         "Description": "",
         "Policy": "",
         "Feedback": "",
+        "discount": 40,
 
         "otherImgs": [
             {
@@ -40,11 +41,12 @@
         "rating": 5,
         "sellerName": "Sanni Collins",
         "profileImg": "https://imgur.com/PTgQlim.png",
-        "category": "",
+        "category": "Shirts",
         "Overview": "",
         "Description": "",
         "Policy": "",
         "Feedback": "",
+        "discount": 20,
 
         "otherImgs": [
             {
@@ -72,11 +74,12 @@
         "rating": 5,
         "sellerName": "Sanni Collins",
         "profileImg": "https://imgur.com/PTgQlim.png",
-        "category": "",
+        "category": "Cargo Pants",
         "Overview": "",
         "Description": "",
         "Policy": "",
         "Feedback": "",
+        "discount": 10,
 
         "otherImgs": [
             {
@@ -104,11 +107,12 @@
         "rating": 5,
         "sellerName": "Sanni Collins",
         "profileImg": "https://imgur.com/PTgQlim.png",
-        "category": "",
+        "category": "Hoodies",
         "Overview": "",
         "Description": "",
         "Policy": "",
         "Feedback": "",
+        "discount": 10,
 
         "otherImgs": [
             {
@@ -136,11 +140,12 @@
         "rating": 5,
         "sellerName": "Sanni Collins",
         "profileImg": "https://imgur.com/PTgQlim.png",
-        "category": "",
+        "category": "Shirts",
         "Overview": "",
         "Description": "",
         "Policy": "",
         "Feedback": "",
+        "discount": 30,
 
         "otherImgs": [
             {
@@ -168,11 +173,12 @@
         "rating": 5,
         "sellerName": "Sanni Collins",
         "profileImg": "https://imgur.com/PTgQlim.png",
-        "category": "",
+        "category": "Cargo Pants",
         "Overview": "",
         "Description": "",
         "Policy": "",
         "Feedback": "wowwwwwwwwwwwwwwwwwwwwwwww",
+        "discount": 50,
 
         "otherImgs": [
             {
@@ -200,11 +206,12 @@
         "rating": 5,
         "sellerName": "Sanni Collins",
         "profileImg": "https://imgur.com/PTgQlim.png",
-        "category": "",
+        "category": "Hoodies",
         "Overview": "",
         "Description": "",
         "Policy": "",
         "Feedback": "",
+        "discount": 20,
 
         "otherImgs": [
             {
